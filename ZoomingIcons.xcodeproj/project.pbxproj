@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272997141A96E4BE00399D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997131A96E4BE00399D7D /* AppDelegate.swift */; };
+		272997161A96E4BE00399D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997151A96E4BE00399D7D /* ViewController.swift */; };
+		272997191A96E4BE00399D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272997171A96E4BE00399D7D /* Main.storyboard */; };
+		2729971B1A96E4BE00399D7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2729971A1A96E4BE00399D7D /* Images.xcassets */; };
+		2729971E1A96E4BE00399D7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2729971C1A96E4BE00399D7D /* LaunchScreen.xib */; };
+		2729972A1A96E4BE00399D7D /* ZoomingIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997291A96E4BE00399D7D /* ZoomingIconsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272997241A96E4BE00399D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272997061A96E4BE00399D7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2729970D1A96E4BE00399D7D;
+			remoteInfo = ZoomingIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2729970E1A96E4BE00399D7D /* ZoomingIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomingIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272997121A96E4BE00399D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272997131A96E4BE00399D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		272997151A96E4BE00399D7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		272997181A96E4BE00399D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2729971A1A96E4BE00399D7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2729971D1A96E4BE00399D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		272997231A96E4BE00399D7D /* ZoomingIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomingIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		272997281A96E4BE00399D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272997291A96E4BE00399D7D /* ZoomingIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomingIconsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2729970B1A96E4BE00399D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272997201A96E4BE00399D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272997051A96E4BE00399D7D = {
+			isa = PBXGroup;
+			children = (
+				272997101A96E4BE00399D7D /* ZoomingIcons */,
+				272997261A96E4BE00399D7D /* ZoomingIconsTests */,
+				2729970F1A96E4BE00399D7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2729970F1A96E4BE00399D7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2729970E1A96E4BE00399D7D /* ZoomingIcons.app */,
+				272997231A96E4BE00399D7D /* ZoomingIconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272997101A96E4BE00399D7D /* ZoomingIcons */ = {
+			isa = PBXGroup;
+			children = (
+				272997131A96E4BE00399D7D /* AppDelegate.swift */,
+				272997151A96E4BE00399D7D /* ViewController.swift */,
+				272997171A96E4BE00399D7D /* Main.storyboard */,
+				2729971A1A96E4BE00399D7D /* Images.xcassets */,
+				2729971C1A96E4BE00399D7D /* LaunchScreen.xib */,
+				272997111A96E4BE00399D7D /* Supporting Files */,
+			);
+			path = ZoomingIcons;
+			sourceTree = "<group>";
+		};
+		272997111A96E4BE00399D7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272997121A96E4BE00399D7D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272997261A96E4BE00399D7D /* ZoomingIconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				272997291A96E4BE00399D7D /* ZoomingIconsTests.swift */,
+				272997271A96E4BE00399D7D /* Supporting Files */,
+			);
+			path = ZoomingIconsTests;
+			sourceTree = "<group>";
+		};
+		272997271A96E4BE00399D7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272997281A96E4BE00399D7D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2729970D1A96E4BE00399D7D /* ZoomingIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2729972D1A96E4BE00399D7D /* Build configuration list for PBXNativeTarget "ZoomingIcons" */;
+			buildPhases = (
+				2729970A1A96E4BE00399D7D /* Sources */,
+				2729970B1A96E4BE00399D7D /* Frameworks */,
+				2729970C1A96E4BE00399D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomingIcons;
+			productName = ZoomingIcons;
+			productReference = 2729970E1A96E4BE00399D7D /* ZoomingIcons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272997221A96E4BE00399D7D /* ZoomingIconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272997301A96E4BE00399D7D /* Build configuration list for PBXNativeTarget "ZoomingIconsTests" */;
+			buildPhases = (
+				2729971F1A96E4BE00399D7D /* Sources */,
+				272997201A96E4BE00399D7D /* Frameworks */,
+				272997211A96E4BE00399D7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272997251A96E4BE00399D7D /* PBXTargetDependency */,
+			);
+			name = ZoomingIconsTests;
+			productName = ZoomingIconsTests;
+			productReference = 272997231A96E4BE00399D7D /* ZoomingIconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272997061A96E4BE00399D7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mike Reining";
+				TargetAttributes = {
+					2729970D1A96E4BE00399D7D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					272997221A96E4BE00399D7D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2729970D1A96E4BE00399D7D;
+					};
+				};
+			};
+			buildConfigurationList = 272997091A96E4BE00399D7D /* Build configuration list for PBXProject "ZoomingIcons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272997051A96E4BE00399D7D;
+			productRefGroup = 2729970F1A96E4BE00399D7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2729970D1A96E4BE00399D7D /* ZoomingIcons */,
+				272997221A96E4BE00399D7D /* ZoomingIconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2729970C1A96E4BE00399D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272997191A96E4BE00399D7D /* Main.storyboard in Resources */,
+				2729971E1A96E4BE00399D7D /* LaunchScreen.xib in Resources */,
+				2729971B1A96E4BE00399D7D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272997211A96E4BE00399D7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2729970A1A96E4BE00399D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272997161A96E4BE00399D7D /* ViewController.swift in Sources */,
+				272997141A96E4BE00399D7D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729971F1A96E4BE00399D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729972A1A96E4BE00399D7D /* ZoomingIconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272997251A96E4BE00399D7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2729970D1A96E4BE00399D7D /* ZoomingIcons */;
+			targetProxy = 272997241A96E4BE00399D7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272997171A96E4BE00399D7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272997181A96E4BE00399D7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2729971C1A96E4BE00399D7D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2729971D1A96E4BE00399D7D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2729972B1A96E4BE00399D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2729972C1A96E4BE00399D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2729972E1A96E4BE00399D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomingIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2729972F1A96E4BE00399D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomingIcons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		272997311A96E4BE00399D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoomingIconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomingIcons.app/ZoomingIcons";
+			};
+			name = Debug;
+		};
+		272997321A96E4BE00399D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoomingIconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomingIcons.app/ZoomingIcons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272997091A96E4BE00399D7D /* Build configuration list for PBXProject "ZoomingIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729972B1A96E4BE00399D7D /* Debug */,
+				2729972C1A96E4BE00399D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2729972D1A96E4BE00399D7D /* Build configuration list for PBXNativeTarget "ZoomingIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729972E1A96E4BE00399D7D /* Debug */,
+				2729972F1A96E4BE00399D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		272997301A96E4BE00399D7D /* Build configuration list for PBXNativeTarget "ZoomingIconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272997311A96E4BE00399D7D /* Debug */,
+				272997321A96E4BE00399D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272997061A96E4BE00399D7D /* Project object */;
+}
