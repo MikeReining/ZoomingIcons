@@ -10,6 +10,7 @@ import UIKit
 
 class MenuCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, ZoomingIconViewControllerProtocol {
     var icons = [Icon]()
+    var selectedIndexPath: NSIndexPath?
     
     override func viewDidLoad() {
         collectionView!.contentInset = UIEdgeInsets(top: 100, left: 0, bottom: 0, right: 0)
@@ -73,6 +74,7 @@ class MenuCollectionViewController: UICollectionViewController, UICollectionView
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let dvc = self.storyboard?.instantiateViewControllerWithIdentifier("DetailedViewController") as DetailedViewController
+        selectedIndexPath = indexPath
         
         if indexPath.section == 0 {
             dvc.icon = icons[indexPath.item]
@@ -84,14 +86,24 @@ class MenuCollectionViewController: UICollectionViewController, UICollectionView
     }
     
     //     MARK: ZoomIconViewControllerProtocol
-//    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
-//        <#code#>
-//    }
-//    
-//    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
-//        <#code#>
-//    }
-//    
+    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
+        if let indexPath = selectedIndexPath {
+            let cell = collectionView?.cellForItemAtIndexPath(indexPath) as CollectionViewCell
+            return cell.colorView
+        } else {
+            return nil
+        }
+    }
+    
+    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
+        if let indexPath = selectedIndexPath {
+            let cell = collectionView?.cellForItemAtIndexPath(indexPath) as CollectionViewCell
+            return cell.imageView
+        } else {
+            return nil
+        }
+    }
+    
     
     
 }

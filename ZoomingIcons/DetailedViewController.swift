@@ -36,13 +36,15 @@ class DetailedViewController: UIViewController, ZoomingIconViewControllerProtoco
     
     //MARK: ZoomIconViewControllerProtocol
     
-//    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
-//        <#code#>
-//    }
-//    
-//    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
-//        <#code#>
-//    }
+    
+    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
+        return backgroundView
+    }
+    
+    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
+        return imageView
+    }
+
     
     
 }
