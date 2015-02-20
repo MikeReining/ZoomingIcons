@@ -69,7 +69,7 @@ class MenuCollectionViewController: UICollectionViewController, UICollectionView
         return edgeInsets
     }
     
-    // MARK: Navigation
+    // MARK: UICollectionViewDelegate - Used for Navigation
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let dvc = self.storyboard?.instantiateViewControllerWithIdentifier("DetailedViewController") as DetailedViewController

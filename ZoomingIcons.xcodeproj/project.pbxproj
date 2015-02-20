@@ -16,6 +16,7 @@
 		272997371A96E65800399D7D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997361A96E65800399D7D /* CollectionViewCell.swift */; };
 		2742A5D11A96F89A00DC5214 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742A5D01A96F89A00DC5214 /* Icon.swift */; };
 		2742A5D41A9702A700DC5214 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742A5D31A9702A700DC5214 /* DetailedViewController.swift */; };
+		2742A5D61A97A47900DC5214 /* ZoomingIconTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742A5D51A97A47900DC5214 /* ZoomingIconTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		272997361A96E65800399D7D /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		2742A5D01A96F89A00DC5214 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		2742A5D31A9702A700DC5214 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		2742A5D51A97A47900DC5214 /* ZoomingIconTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomingIconTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				272997331A96E5A200399D7D /* MenuCollectionViewController.swift */,
+				2742A5D51A97A47900DC5214 /* ZoomingIconTransition.swift */,
 				2742A5D31A9702A700DC5214 /* DetailedViewController.swift */,
 				272997361A96E65800399D7D /* CollectionViewCell.swift */,
 			);
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272997141A96E4BE00399D7D /* AppDelegate.swift in Sources */,
+				2742A5D61A97A47900DC5214 /* ZoomingIconTransition.swift in Sources */,
 				272997341A96E5A200399D7D /* MenuCollectionViewController.swift in Sources */,
 				2742A5D41A9702A700DC5214 /* DetailedViewController.swift in Sources */,
 				2742A5D11A96F89A00DC5214 /* Icon.swift in Sources */,

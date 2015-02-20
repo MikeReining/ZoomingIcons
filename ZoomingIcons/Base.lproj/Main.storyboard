@@ -178,10 +178,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
+                        <outlet property="delegate" destination="Ou3-3K-0gb" id="krK-uf-c0Y"/>
                         <segue destination="hHK-It-1KM" kind="relationship" relationship="rootViewController" id="3d1-QU-ZQO"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwT-yq-BTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Ou3-3K-0gb" customClass="ZoomingIconTransition" customModule="ZoomingIcons" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="234" y="209"/>
         </scene>
