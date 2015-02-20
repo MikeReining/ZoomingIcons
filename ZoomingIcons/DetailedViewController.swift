@@ -8,9 +8,12 @@
 
 import UIKit
 
-class DetailedViewController: UIViewController {
+class DetailedViewController: UIViewController, ZoomingIconViewControllerProtocol {
     var icon: Icon!
     
+    @IBOutlet weak var backButtonTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var summaryLabelTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var titleLabelTopConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var backgroundView: UIView!
     
@@ -30,6 +33,16 @@ class DetailedViewController: UIViewController {
         titleLabel.text = icon.name
         summaryLabel.text = icon.summary
     }
+    
+    //MARK: ZoomIconViewControllerProtocol
+    
+//    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
+//        <#code#>
+//    }
+//    
+//    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
+//        <#code#>
+//    }
     
     
 }

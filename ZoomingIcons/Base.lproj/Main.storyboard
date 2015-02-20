@@ -125,27 +125,17 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="PF2-vY-Fga" secondAttribute="centerX" id="5BC-Og-qV2"/>
-                                    <constraint firstAttribute="centerY" secondItem="PF2-vY-Fga" secondAttribute="centerY" id="8lT-8C-Bm7"/>
                                     <constraint firstAttribute="trailing" secondItem="lfs-NU-vA3" secondAttribute="trailing" constant="20" id="BTH-jK-PpY"/>
                                     <constraint firstItem="yVo-eW-GCb" firstAttribute="leading" secondItem="x5s-qr-4Rv" secondAttribute="leading" constant="20" id="NEq-H9-qU0"/>
                                     <constraint firstAttribute="centerX" secondItem="PF2-vY-Fga" secondAttribute="centerX" id="Oxr-T1-aX6"/>
                                     <constraint firstItem="yVo-eW-GCb" firstAttribute="top" secondItem="x5s-qr-4Rv" secondAttribute="top" constant="20" id="Q5T-vB-bMe"/>
                                     <constraint firstItem="5sN-5T-A28" firstAttribute="top" secondItem="PF2-vY-Fga" secondAttribute="bottom" constant="41" id="YiU-cW-zv3"/>
                                     <constraint firstItem="lfs-NU-vA3" firstAttribute="top" secondItem="5sN-5T-A28" secondAttribute="bottom" constant="36" id="ZW5-Tg-Hyk"/>
-                                    <constraint firstItem="PF2-vY-Fga" firstAttribute="top" secondItem="x5s-qr-4Rv" secondAttribute="top" constant="107" id="dad-e5-MON"/>
                                     <constraint firstAttribute="centerX" secondItem="5sN-5T-A28" secondAttribute="centerX" id="hzV-Yo-zTq"/>
                                     <constraint firstItem="lfs-NU-vA3" firstAttribute="leading" secondItem="x5s-qr-4Rv" secondAttribute="leading" constant="20" id="jyu-Je-vaw"/>
                                     <constraint firstItem="PF2-vY-Fga" firstAttribute="top" secondItem="x5s-qr-4Rv" secondAttribute="top" constant="107" id="tpS-5N-tSK"/>
                                     <constraint firstAttribute="centerX" secondItem="lfs-NU-vA3" secondAttribute="centerX" id="yZV-62-Vy3"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="5BC-Og-qV2"/>
-                                        <exclude reference="8lT-8C-Bm7"/>
-                                        <exclude reference="dad-e5-MON"/>
-                                    </mask>
-                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -157,10 +147,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backButtonTopConstraint" destination="Q5T-vB-bMe" id="Dez-6M-Xeb"/>
                         <outlet property="backgroundView" destination="x5s-qr-4Rv" id="nhD-v4-iZy"/>
                         <outlet property="imageView" destination="PF2-vY-Fga" id="NA1-kE-l9M"/>
                         <outlet property="summaryLabel" destination="lfs-NU-vA3" id="QVR-QW-8Zc"/>
+                        <outlet property="summaryLabelTopConstraint" destination="ZW5-Tg-Hyk" id="Ixm-IB-5d3"/>
                         <outlet property="titleLabel" destination="5sN-5T-A28" id="eSY-TX-MxF"/>
+                        <outlet property="titleLabelTopConstraint" destination="YiU-cW-zv3" id="mYS-eg-NGQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ih0-MR-YMK" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MenuCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class MenuCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, ZoomingIconViewControllerProtocol {
     var icons = [Icon]()
     
     override func viewDidLoad() {
@@ -82,6 +82,16 @@ class MenuCollectionViewController: UICollectionViewController, UICollectionView
         
         self.navigationController!.pushViewController(dvc, animated: true)
     }
+    
+    //     MARK: ZoomIconViewControllerProtocol
+//    func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView! {
+//        <#code#>
+//    }
+//    
+//    func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView! {
+//        <#code#>
+//    }
+//    
     
     
 }

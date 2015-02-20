@@ -9,6 +9,11 @@
 import Foundation
 import UIKit
 
+@objc protocol ZoomingIconViewControllerProtocol {
+    optional func zoomingIconColoredViewForTransition(transition: ZoomingIconTransition) -> UIView!
+    optional func zoomingIconImageViewForTransition(transition: ZoomingIconTransition) -> UIImageView!
+}
+
 class ZoomingIconTransition: NSObject, UIViewControllerAnimatedTransitioning, UINavigationControllerDelegate {
     let kZoomingIconTransitionDuration: NSTimeInterval = 1
     
@@ -40,7 +45,16 @@ class ZoomingIconTransition: NSObject, UIViewControllerAnimatedTransitioning, UI
     }
     
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return self
+        
+        if fromVC is ZoomingIconViewControllerProtocol &&
+            toVC is ZoomingIconViewControllerProtocol {
+                println("success")
+                return self
+        }
+        else {
+            return nil
+        }
+        
     }
     
 }
