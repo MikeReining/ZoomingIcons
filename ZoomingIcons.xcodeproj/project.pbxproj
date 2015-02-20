@@ -14,6 +14,7 @@
 		2729972A1A96E4BE00399D7D /* ZoomingIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997291A96E4BE00399D7D /* ZoomingIconsTests.swift */; };
 		272997341A96E5A200399D7D /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997331A96E5A200399D7D /* MenuCollectionViewController.swift */; };
 		272997371A96E65800399D7D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272997361A96E65800399D7D /* CollectionViewCell.swift */; };
+		2742A5D11A96F89A00DC5214 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742A5D01A96F89A00DC5214 /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		272997291A96E4BE00399D7D /* ZoomingIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomingIconsTests.swift; sourceTree = "<group>"; };
 		272997331A96E5A200399D7D /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewController.swift; path = ../MenuCollectionViewController.swift; sourceTree = "<group>"; };
 		272997361A96E65800399D7D /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2742A5D01A96F89A00DC5214 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,8 @@
 				272997131A96E4BE00399D7D /* AppDelegate.swift */,
 				272997171A96E4BE00399D7D /* Main.storyboard */,
 				2729971A1A96E4BE00399D7D /* Images.xcassets */,
+				2742A5D21A96F8A100DC5214 /* Model */,
+				2742A5D01A96F89A00DC5214 /* Icon.swift */,
 				272997351A96E5A700399D7D /* Controllers */,
 				2729971C1A96E4BE00399D7D /* LaunchScreen.xib */,
 				272997111A96E4BE00399D7D /* Supporting Files */,
@@ -121,6 +125,13 @@
 				272997361A96E65800399D7D /* CollectionViewCell.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2742A5D21A96F8A100DC5214 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 			files = (
 				272997141A96E4BE00399D7D /* AppDelegate.swift in Sources */,
 				272997341A96E5A200399D7D /* MenuCollectionViewController.swift in Sources */,
+				2742A5D11A96F89A00DC5214 /* Icon.swift in Sources */,
 				272997371A96E65800399D7D /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +431,7 @@
 				2729972F1A96E4BE00399D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		272997301A96E4BE00399D7D /* Build configuration list for PBXNativeTarget "ZoomingIconsTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +440,7 @@
 				272997321A96E4BE00399D7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
